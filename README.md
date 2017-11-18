@@ -9,6 +9,6 @@ If a user forgets his password, he can request a new one using a specific endpoi
 The following endpoints allow for these actions:
   * [Registration](./Auth/Register.md)
   * [Verification](./Auth/Verify.md)
-  * Forgot password
+  * [Forgot password](./Auth/ForgotPassword.md)
   * Login
   * Logout
