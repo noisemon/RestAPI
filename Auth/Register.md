@@ -16,7 +16,12 @@
 
 * **Data Params**
 
-  None
+  ```
+  {
+    username: "donald.trump@whitehouse.com",
+    password: "ImDumb@ssNr1"
+  }
+  ```
 
 * **Success Response:**
 
