@@ -18,7 +18,7 @@
 
   ```
   {
-    username: "donald.trump@whitehouse.com"
+    email: "donald.trump@whitehouse.com"
   }
   ```
 
