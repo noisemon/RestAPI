@@ -7,8 +7,8 @@ Once registered, a user is able to login using his credentials, and he can add/v
 If a user forgets his password, he can request a new one using a specific endpoint.
 
 The following endpoints allow for these actions:
-  * [Registration](RestAPI/Auth/Register.md)
-  * [Verification](RestAPI/Auth/Verify.md)
+  * [Registration](./Auth/Register.md)
+  * [Verification](./Auth/Verify.md)
   * Forgot password
   * Login
   * Logout
