@@ -52,4 +52,5 @@
 
 * **Notes**
 
-  Make sure SSL is used.
+  * Make sure SSL is used.
+  * Upon success, the user will receive an email with an activation code to validate his email address. The activcation code is valid for 24 hours. If no validation occurs within 24 hours, a new registration must be performed.
