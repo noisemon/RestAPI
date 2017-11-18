@@ -42,9 +42,13 @@
 
   ```javascript
     $.ajax({
-      url: "/users/1",
+      url: "/auth/register",
       dataType: "json",
-      type : "GET",
+      data: {
+        username: "donald.trump@whitehouse.com",
+        password: "ImDumb@ssNr1"
+      }
+      type : "POST",
       success : function(r) {
         console.log(r);
       }
