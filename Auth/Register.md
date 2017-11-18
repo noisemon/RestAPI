@@ -1,6 +1,6 @@
 **Register new account**
 ----
-  Registers new account.
+  Registers new account to the system. Needs to be done at least once. The user creates an account, and afterwards, once logged in, can access his resources (Noise Monitors). Username should be a valid emailaddress which will have to be validated by the user. Password needs to be at least 8 characters long, contain lowercase letters, uppercase letters, digits, and special characters.
 
 * **URL**
 
@@ -49,3 +49,7 @@
       }
     });
   ```
+
+* **Notes:**
+
+  Make sure SSL is used.
