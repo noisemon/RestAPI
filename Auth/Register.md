@@ -18,7 +18,7 @@
 
   ```
   {
-    username: "donald.trump@whitehouse.com",
+    email: "donald.trump@whitehouse.com",
     password: "ImDumb@ssNr1"
   }
   ```
@@ -40,7 +40,7 @@
       url: "/auth/register",
       dataType: "json",
       data: {
-        username: "donald.trump@whitehouse.com",
+        email: "donald.trump@whitehouse.com",
         password: "ImDumb@ssNr1"
       }
       type : "POST",
