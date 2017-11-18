@@ -19,11 +19,14 @@ Once logged in, a user can configure his account, administer his Noise Monitors 
 Endpoints for **Account** configuration:
  * [List](./api/account/List.md) - List all accounts. (Only for administrators)
  * [Get](./api/account/Get.md) - Get details on current or specific account. (Specific only for administrators)
+<still some work to be done here>
 
 Endpoints for **Noise Monitor** configuration:
+<still some work to be done here>
 
 ## Data
 Finally, there are endpoints to view the current and historical Noise Monitors data
 
 Endpoints for **Noise Monitor** data:
+<still some work to be done here>
 
