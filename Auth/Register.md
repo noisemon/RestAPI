@@ -50,6 +50,6 @@
     });
   ```
 
-* **Notes:**
+* **Notes**
 
   Make sure SSL is used.
