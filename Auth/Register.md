@@ -26,18 +26,13 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 12, name : "Michael Bloom" }`
+    **Content:** `{ message: "Registration succeeded" }`
  
 * **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
-
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "You are unauthorized to make this request." }`
-
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** `{ error : "Missing registration information." }`
+    
 * **Sample Call:**
 
   ```javascript
