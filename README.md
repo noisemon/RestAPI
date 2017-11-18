@@ -10,5 +10,20 @@ The following endpoints allow for these actions:
   * [Registration](./Auth/Register.md)
   * [Verification](./Auth/Verify.md)
   * [Forgot password](./Auth/ForgotPassword.md)
-  * Login
-  * Logout
+  * [Login](./Auth/Login.md)
+  * [Logout](./Auth/Logout.md)
+
+## Configuration
+Once logged in, a user can configure his account, administer his Noise Monitors etc.
+
+Endpoints for **Account** configuration:
+ * [List](./api/account/List.md) - List all accounts. (Only for administrators)
+ * [Get](./api/account/Get.md) - Get details on current or specific account. (Specific only for administrators)
+
+Endpoints for **Noise Monitor** configuration:
+
+## Data
+Finally, there are endpoints to view the current and historical Noise Monitors data
+
+Endpoints for **Noise Monitor** data:
+
