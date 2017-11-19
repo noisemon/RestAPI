@@ -21,13 +21,9 @@ Endpoints for **Account** configuration:
  * [Get details on current/specific account](./api/account/Get.md) - Specific only for administrators.
  * [Update details of current/specific account](./api/account/Update.md) - Specific only for administrators.
 
-<br />
-**still some work to be done here**
-
 Endpoints for **Noise Monitor** configuration:
-
-<br />
-**still some work to be done here**
+ * [List all Noise Monitors](./api/account/List.md)
+ * [Get details on current/specific Noise Monitor](./api/account/Get.md) - Specific only for administrators.
 
 ## Data
 Finally, there are endpoints to view the current and historical Noise Monitors data
