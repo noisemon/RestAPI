@@ -12,7 +12,10 @@
   
 * **URL Params**
 
-  None
+   **Optional:**
+ 
+    * **ID** Specify the Account ID from which you wish to retrieve the Noise Monitors. <br/>
+      **Example** `id=OGRmNWI1NGItM2U3NC00ZTlhLTk3MzgtNjAyYmY1ZmJhNzdh`
 
 * **Data Params**
 
@@ -42,7 +45,7 @@
 
   ```javascript
     $.ajax({
-      url: "/api/noisemonitor/list?id=",
+      url: "/api/noisemonitor/list?id=OGRmNWI1NGItM2U3NC00ZTlhLTk3MzgtNjAyYmY1ZmJhNzdh",
       dataType: "json",
       type : "GET",
       success : function(r) {
@@ -54,3 +57,4 @@
 * **Notes**
 
   * Make sure SSL is used.
+  * Please note that if you omit Account ID, you may receive **all** Noise Monitors if the user has 'god' rights; that list can be huge !
