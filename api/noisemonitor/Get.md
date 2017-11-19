@@ -14,8 +14,8 @@
 
    **Required:**
  
- * **MAC** Specify the Noise Monitor ID fro which you wish to retrieve the information. <br/>
-   **Example** `mac=01AE3B567E22`
+    * **MAC** Specify the Noise Monitor ID fro which you wish to retrieve the information. <br/>
+      **Example** `mac=01AE3B567E22`
 
 * **Data Params**
 
