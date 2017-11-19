@@ -9,16 +9,17 @@ If a user forgets his password, he can request a new one using a specific endpoi
 The following endpoints allow for these actions:
   * [Registration](./Auth/Register.md)
   * [Verification](./Auth/Verify.md)
-  * [Forgot password](./Auth/ForgotPassword.md)
   * [Login](./Auth/Login.md)
+  * [Forgot password](./Auth/ForgotPassword.md)
   * [Logout](./Auth/Logout.md)
 
 ## Configuration
 Once logged in, a user can configure his account, administer his Noise Monitors etc.
 
 Endpoints for **Account** configuration:
- * [List](./api/account/List.md) - List all accounts. (Only for administrators)
- * [Get](./api/account/Get.md) - Get details on current or specific account. (Specific only for administrators)
+ * [List all accounts](./api/account/List.md) - Only for administrators!
+ * [Get details on current/specific account](./api/account/Get.md) - Specific only for administrators.
+ * [Update details of current/specific account](./api/account/Update.md) - Specific only for administrators.
 
 <br />
 **still some work to be done here**
