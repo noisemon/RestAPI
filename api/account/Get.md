@@ -12,7 +12,10 @@
   
 * **URL Params**
 
-  None
+   **Optional:**
+ 
+ * **ID** The Account ID to be retrieved. <br/>
+   **Example** `id=OGRmNWI1NGItM2U3NC00ZTlhLTk3MzgtNjAyYmY1ZmJhNzdh`
 
 * **Data Params**
 
@@ -24,14 +27,16 @@
     **Content:**
     ```
     {
-      <example to be provided>
+      id: "OGRmNWI1NGItM2U3NC00ZTlhLTk3MzgtNjAyYmY1ZmJhNzdh",
+      email: "lemmy.kilmister@motorhead.com",
+      god: "1"
     }
     ```
 
 * **Error Response:**
 
   * **Code:** 400 BAD REQUEST <br />
-    **Content:** `{ error : "Missing requested Account ID." }`
+    **Content:** `{ error : "Invalid Account ID." }`
 
   OR
 
@@ -42,7 +47,7 @@
 
   ```javascript
     $.ajax({
-      url: "/api/account/get?id=qewfnwqrgqeRGQEGRCQgniweifcqwrgQQERGq",
+      url: "/api/account/get?id=OGRmNWI1NGItM2U3NC00ZTlhLTk3MzgtNjAyYmY1ZmJhNzdh",
       dataType: "json",
       type : "GET",
       success : function(r) {
