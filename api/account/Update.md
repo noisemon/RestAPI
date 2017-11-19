@@ -18,6 +18,7 @@
 
   ```
   {
+    id: "OGRmNWI1NGItM2U3NC00ZTlhLTk3MzgtNjAyYmY1ZmJhNzdh",
     email: "donald.trump@whitehouse.com",
     password: "ImDumb@ssNr1"
   }
@@ -40,6 +41,7 @@
       url: "/api/account/update",
       dataType: "json",
       data: {
+        id: "OGRmNWI1NGItM2U3NC00ZTlhLTk3MzgtNjAyYmY1ZmJhNzdh",
         email: "donald.trump@whitehouse.com",
         password: "ImDumb@ssNr1"
       }
@@ -53,3 +55,4 @@
 * **Notes**
 
   * Make sure SSL is used.
+  * Email can NOT be changed. User must register for new account in that case.  
