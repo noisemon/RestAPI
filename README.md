@@ -17,18 +17,21 @@ The following endpoints allow for these actions:
 Once logged in, a user can configure his account, administer his Noise Monitors etc.
 
 Endpoints for **Account** configuration:
- * [List all accounts](./api/account/List.md) - Only for administrators!
+ * [List all accounts](./api/account/List.md) - Only for administrators.
+ * [Get count of accounts](./api/account/GetCount.md) - Only for administrators.
  * [Get details on current/specific account](./api/account/Get.md) - Specific only for administrators.
  * [Update details of current/specific account](./api/account/Update.md) - Specific only for administrators.
 
 Endpoints for **Noise Monitor** configuration:
  * [List all Noise Monitors](./api/noisemonitor/List.md)
+ * [Get count of Noise Monitors for current/specific/all account(s)](./api/noisemonitor/GetCount.md)
  * [Get details on current/specific Noise Monitor](./api/noisemonitor/Get.md) - Specific only for administrators.
+ * [Update details of a Noise Monitor](./api/noisemonitor/Update.md)
+ * [Add Noise Monitor to account](./api/noisemonitor/Add.md)
+ * [Remove Noise Monitor from account](./api/noisemonitor/Remove.md)
 
 ## Data
 Finally, there are endpoints to view the current and historical Noise Monitors data
 
 Endpoints for **Noise Monitor** data:
-
-<br />
-**still some work to be done here**
+ * [Get last x seconds of Noise Data from a Noise Monitor](./api/noise/Get.md)
