@@ -1,4 +1,4 @@
-**Get Account count information**
+**Get Account count**
 ----
   Retrieves the number of accounts. Returns always 1 in case you are not an administrator. 
 
