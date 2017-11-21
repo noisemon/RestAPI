@@ -12,7 +12,10 @@
   
 * **URL Params**
 
-  None
+   **Optional:**
+ 
+    * **ID** Specify the Account ID from which you want to count the number of Noise Monitors. <br/>
+      **Example** `id=OGRmNWI1NGItM2U3NC00ZTlhLTk3MzgtNjAyYmY1ZmJhNzdh`
 
 * **Data Params**
 
@@ -54,3 +57,5 @@
 * **Notes**
 
   * Make sure SSL is used.
+  * If **no** account ID is specified, the method returns the number of Noise Monitors of the current account, unless the current account is an administrator. In that case, the method returns the total number of Noise Monitors in the entire system.
+  * If an account ID is specified, the method only returns the number of Noise Monitors of that specific account, if the current account is administrator. Otherwise, the method fails with a non-authorization message.
