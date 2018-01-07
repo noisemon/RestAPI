@@ -30,6 +30,16 @@ Endpoints for **Noise Monitor** configuration:
  * [Add Noise Monitor to account](./api/noisemonitor/Add.md)
  * [Remove Noise Monitor from account](./api/noisemonitor/Remove.md)
 
+Endpoints for **Noise Monitor Group** configuration:
+ * [List all Noise Monitor Groups](./api/noisemonitorgroup/List.md)
+ * [Get count of Noise Monitor Groups for current account(s)](./api/noisemonitorgroup/GetCount.md)
+ * [Get details on current/specific Noise Monitor Group](./api/noisemonitorgroup/Get.md)
+ * [Update details of a Noise Monitor Group](./api/noisemonitorgroup/Update.md)
+ * [Create a new Noise Monitor Group](./api/noisemonitorgroup/Create.md)
+ * [Delete a Noise Monitor Group](./api/noisemonitorgroup/Delete.md)
+ * [Add Noise Monitor to Group](./api/noisemonitorgroup/Add.md)
+ * [Remove Noise Monitor from Group](./api/noisemonitorgroup/Remove.md)
+
 ## Data
 Finally, there are endpoints to view the current and historical Noise Monitors data
 
